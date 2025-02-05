@@ -235,9 +235,9 @@
   margin-top: 20px;
   padding: 10px 20px;
   border-radius: 26px;
-  /* این مقدار ممکن است بعدا تغییر کند */
+
   border: 10px solid transparent;
-  /* به وضوح مشخص کنید که نوع border چیست */
+
   text-transform: uppercase;
   font-weight: 700;
   display: flex;
@@ -258,14 +258,14 @@
   position: absolute;
   content: "";
   top: calc(-8px);
-  /* این مقدار باید با border-width شما همخوانی داشته باشد */
+
   left: calc(-8px);
-  /* این مقدار باید با border-width شما همخوانی داشته باشد */
+
   z-index: -1;
   width: calc(100% + 16px);
-  /* باید با border-width شما همخوانی داشته باشد */
+
   height: calc(100% + 16px);
-  /* باید با border-width شما همخوانی داشته باشد */
+
   background: linear-gradient(60deg,
       hsl(0, 0%, 0%),
       hsl(237, 94%, 26%),
